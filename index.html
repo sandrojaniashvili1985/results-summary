@@ -9,33 +9,48 @@
   <title> Results summary component</title>
   <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <main>
     <section class="your-Result">
         <h1 class="your-Result-head">Your Result</h1>
         <div class="Result-circle">
-          <h1 class="circle-large">76</h1> 
-          <p>of 100</p>
+          <div class="circle-number">
+            <h1>76</h1> 
+            <p>of 100</p>
+          </div>
         </div>
-        <h1>Great</h1>
-        <p>You scored higher than 65% of the<br> people who have taken these tests.</p>
+        <div class="text">
+          <h1>Great</h1>
+          <p>Your performance exceed 65% of the people conducting the test here!</p>
+        </div>
     </section>
     <section class="summary">
-        <h1 class="h1-summary">Summary</h1>
-        <div class="summary-reaction">
-          <p><img src="assets\images\icon-reaction.svg" alt=""> Reaction</p><span>80 / 100</span>
+        <h1>Summary</h1>
+        <div>
+          <img src="assets\images\icon-reaction.svg" alt=""> 
+          <p>Reaction</p>
+          <span>80 </span><span id="hundred">/ 100</span>
         </div>
-        <div class="summary-memory">
-          <p><img src="assets\images\icon-memory.svg" alt=""> Memory</p><span>92 / 100</span>
+
+        <div>
+          <img src="assets\images\icon-memory.svg" alt="">
+            <p>Memory</p>
+            <span>92 </span><span id="hundred">/ 100</span>
         </div>
-        <div class="summary-verbal">
-          <p><img src="assets\images\icon-verbal.svg" alt="">Verbal</p><span>61 / 100</span>
+
+        <div>
+          <img src="assets\images\icon-verbal.svg" alt="">
+            <p id="debiloba"> Verbal </p>
+            <span> 61 </span><span id="hundred"> / 100</span>
         </div>
-        <div class="summary-visual">
-          <p><img src="assets\images\icon-visual.svg" alt="">Visual</p><span>72 / 100</span>
+
+        <div>
+          <img src="assets\images\icon-visual.svg" alt="">
+            <p id="debiloba"> Visual </p>
+            <span> 72 </span><span id="hundred"> / 100</span>
         </div>
+
         <button>Continue</button>
     </section>
   </main>
