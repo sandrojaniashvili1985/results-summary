@@ -32,13 +32,18 @@
   font-family: inherit;
 }
 
+html, body {
+  height: 100%;
+}
+
 body{
   background-color: var(--clr-backgroun);
   font-family: 'Hanken Grotesk', sans-serif;
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
-
-
 
 main {
   width: 23.438rem;
@@ -55,8 +60,6 @@ main {
     display: flex;
     width: 736px;
     height: 512px;
-    margin-top: 284px;
-    margin-left: 352px;
     border-radius: 2rem;
   }
 }
